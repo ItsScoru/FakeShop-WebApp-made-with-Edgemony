@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra App</title> <!-- NOME SCHEDA BROWSER -->
+    <link rel="stylesheet" href="style.css"> <!-- FILE CSS -->
+</head>
+<body>
+
+    <div class="header">
+
+        <p>Fake Shop</p>
+    </div>
+
+
+    <div class="navbar">
+
+        <button class="button">Cambia Immagine</button>
+    </div>
+
+
+    <div class="container">
+
+        <div class="img_container">
+            <img id="image" class="img" src="https://picsum.photos/1300/700">
+        </div>
+
+        <div class="filters_container">
+            
+            <div class="filter">
+            <label>Seppia:</label>
+            <input id="seppiaRange" type="range" min="0" max="100" value="0"> <!-- password, text, color, step, style="width: 100%;"-->
+            </div>
+
+            <div class="filter">
+            <label>Grayscale:</label>
+            <input id="grayscaleRange" type="range" min="0" max="100" value="0"/>
+            </div>
+
+            <div class="filter">
+            <label>Blur:</label>
+            <input id="blurRange" type="range" min="0" max="10" value="0"/>
+            </div>
+
+            <div class="filter">
+            <label>Brightness:</label>
+            <input id="brightnessRange" type="range" min="0" max="200" value="100"/>
+            </div>
+
+            <div class="filter">
+            <label>Contrast:</label>
+            <input id="contrastRange" type="range" min="0" max="200" value="100"/>
+            </div>
+
+            <div class="filter">
+            <label>Saturate:</label>
+            <input id="saturateRange" type="range" min="0" max="200" value="100"/>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+    
+</body>
+</html>

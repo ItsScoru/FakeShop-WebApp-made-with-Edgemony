@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: #535353;
+    display: flex; /* DA NON FARE MAI */
+    flex-direction: column;
+    min-height: 100vh; /*100% altezza view port heigt*/
+}
+
+.header {
+    padding: 5px 10px;
+    border: 1px solid #494949;
+}
+
+.navbar {
+    padding: 5px 10px;
+    border: 1px solid #494949;
+}
+
+.button {
+    background-color: #494949;
+    color: white;
+    padding: 5px 10px;   /*sopra destra sotto sinistra*/
+    border: 1px solid #252525;
+}
+
+.container {
+    border: 1px solid #494949;
+    display: flex;  /* FLEX DA APPROFONDIRE */
+    flex-grow: 1;
+}
+
+.img_container {
+    width: 100%;  /* EVITARE DI USARE : STUDIARE CALC calc(100% - 300px) */
+    background-color: #282828;
+    display: flex;
+    justify-content: center; /*row o column altre variabili*/
+    align-items: center;
+}
+
+.filters_container {
+    width: 400px;
+    padding: 20px; /*uno solo è tutti e quattro i lati*/
+}
+
+.filter {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img {
+    width: 70%;
+}
